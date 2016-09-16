@@ -1,0 +1,38 @@
+<html>
+<head>
+</head>
+<body>
+    Text
+    <p id="demo">Test</p>
+
+    <button     type="button"
+                onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'">
+                    Change Text!
+    </button>
+
+    <button     type="button"
+                onclick="document.getElementById('demo').style.fontSize = '25px'">
+                    Change Fontsize!
+    </button>
+
+    <button     type="button"
+                onclick="document.getElementById('demo').style.fontSize = '25px'
+                    document.getElementById('demo').innerHTML = 'Hello JavaScript!'">
+                    Change Text and Fontsize!
+    </button>
+
+    <p id="demo2">Hide me!</p>
+
+    <button     type="button"
+                onclick="document.getElementById('demo2').style.display = 'none'">
+                    Hide!
+    </button>
+
+    <button     type="button"
+                onclick="document.getElementById('demo2').style.display = 'block'">
+                    Show!
+    </button>
+
+
+</body>
+</html>
