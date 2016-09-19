@@ -8,6 +8,21 @@
 
     <button onclick="document.write(3+7)">This will empty the whole page</button>
 
+    <br><br>
+    Here some Buttons for data type tests:
+    <p id="datatype">...</p>
+    <button onclick="document.getElementById('datatype').innerHTML=123e5">Large Number</button>
+    <button onclick="document.getElementById('datatype').innerHTML=23e-5">Small Number</button>
+    <button onclick="var cars = ['Saab', 'Volvo', 'BMW'];
+        document.getElementById('datatype').innerHTML=cars">Array with cars</button>
+    <button onclick="var cars = ['Saab', 'Volvo', 'BMW'];
+        document.getElementById('datatype').innerHTML=cars[1]">One Car from Array</button>
+
+    <br>
+    <button onclick="var cars = ['Saab', 'Volvo', 'BMW'];
+        document.getElementById('datatype').innerHTML=cars[1]">One Car from Array</button>
+    <!--<button onclick=""></button>-->
+
     <!--<script src="JS-Playground_1.js"></script>-->
     <script src="JS-Playground_2.js"></script>
 </body>
